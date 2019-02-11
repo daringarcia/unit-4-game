@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal Collector</title>
+    <!-- Added link to the jQuery Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Added a link to Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!--<link rel="stylesheet" type="text/css" href="assets/css/reset.css">-->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src="assets/javascript/game.js"></script>
+    <script>$(document).ready(function(){
+    });
+    </script>
+</head>
+<body>
+    <div class="header">
+        <h1>The Crystal Collector!</h1>
+    </div>
+    <div class="instructions">
+        <h2>Rules of the game</h2>
+        
+        <p>You will be given a random number at the stat of the game</p>
+        
+        <p>There are four crystal below. By clicking, on a crystal you will add a specific amount of points to your total score.</p>
+        
+        <p>You win the game by matching your total score to the random number. You lose the game if your total score goes above the random number.</p>
+            
+        <p>The value of each crystal is hidden from you until you click on it.</p>
+       
+        <p>Each time the game starts, the value of the crystals will change.</p>
+    </div>
+
+    <div class="GeneratedNumber">
+        <h4>Random Number: <span id="RandomNumber"></span></h4>
+    </div>
+
+    <div class="PlayerTotal">
+            <h4>Your score is: <span id="TotalScore"></span></h4>
+        </div>
+    
+    <div class="WinsAndLosses">
+        <p>Wins: <span id="NumberOfWins"></span></p>
+        <p>Losses: <span id="NumberOfLosses"></span></p>
+    </div>
+    
+    <div class="crystals">
+        <img src="assets/images/emerald.png" class="crystals" id="emerald" alt="emerald">
+        <img src="assets/images/diamond.jpg" class="crystals" id="diamond" alt="diamond">
+        <img src="assets/images/ruby.jpg" class="crystals" id="ruby" alt="ruby">
+        <img src="assets/images/sapphire.jpg" class="crystals" id="sapphire" alt="sapphire">  
+    </div>
+
+
+
+</body>
+</html>

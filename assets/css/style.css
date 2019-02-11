@@ -1,0 +1,67 @@
+body {
+    background-image: url("../images/crystal-background.png")
+}
+
+img.crystals {
+    max-width: 250px;
+    max-height: 128px;
+}
+
+div.instructions {
+    /*background-color: white;*/
+    margin-top: 20px;
+    /*width: 28%;*/
+    font-size: 18px;
+}
+
+div.crystals {
+    margin-top: 100px;
+}
+
+div {
+    font-family: fantasy;
+    color: rgb(104, 137, 230);
+}
+
+h1, h4, span {
+    font-weight: bolder;
+}
+
+span {
+    font-size: 25px;
+}
+
+div.WinsAndLosses {
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+/* media query 2880px for my MacBook Pro 15 inch*/
+@media screen and (max-width: 2880px) {
+    div.instructions{
+        max-width: 28%;
+    }
+/* media query 1024px*/
+@media screen and (max-width: 1024px) {
+    div.instructions{
+        max-width:45%;
+    }
+
+/* media query 980px*/
+@media screen and (max-width: 980px) {
+    div.instructions{
+		max-width: 48%;
+    }
+
+/* media query 768px*/
+@media screen and (max-width: 768px) {
+	div.instructions{
+		max-width: 60%;
+    }
+
+/* media query 640px*/
+@media screen and (max-width: 640px) {
+    div.instructions {
+        max-width: 75%;
+    }
+}
